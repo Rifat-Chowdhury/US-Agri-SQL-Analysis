@@ -38,8 +38,8 @@ The project is organized around realistic questions a manager or stakeholder mig
    - In 2022, the average honey production across all states was 3,133,275 pounds.
 
 5. **State reference and ANSI codes**  
-   - 50 states and their `State_ANSI` codes from `state_lookup` were retreived.  
-   -  the `State_ANSI` code for Florida was 12.  
+   - 50 states and their `State_ANSI` codes from `state_lookup` were retrieved.  
+   - The `State_ANSI` code for Florida was 12.  
 
 6. **Cross-commodity dairy analysis**
    - There was 50 states with their cheese production values (including no production)
