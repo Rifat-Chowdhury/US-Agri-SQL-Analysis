@@ -83,17 +83,6 @@ The project is organized around realistic questions a manager or stakeholder mig
 
 ---
 
-## Example SQL (Total Milk Production for 2023)
-
-Below is an example of the kind of query used in this project.  
-This version assumes `Value` is stored as text with commas and converts it to a numeric type:
-
-```sql
-SELECT 
-    SUM(CAST(REPLACE(Value, ',', '') AS BIGINT)) AS total_milk_production_2023
-FROM milk_production
-WHERE Year = 2023;
-
 ```mermaid
 erDiagram
     STATE_LOOKUP {
