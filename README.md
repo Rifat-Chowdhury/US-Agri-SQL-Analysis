@@ -26,32 +26,37 @@ USDA-Production-Analysis/
 The project is organized around realistic questions a manager or stakeholder might ask a Data Analyst:
 
 1. **Total milk production for 2023**  
-   - Calculate the national total milk production for the year 2023.
+   -  The national total milk production for the year 2023 was 91,812,000,000.
 
 2. **High-output cheese states (April 2023)**  
-   - Find all states with cheese production greater than 100 million in April 2023 and count how many states qualify.
+   - In April 2023, only two states produced more than 100 million pounds of cheese: California (208,007,000) and Wisconsin (289,699,000). These two states were the highest producers for that month.
 
 3. **Coffee production over time**  
-   - Compute the total coffee production for 2011 as part of a trend review.
+   - In 2011, the total coffee production across all states was 7,600,000 pounds.
 
 4. **Average honey production for 2022**  
-   - Calculate the average honey production across all states for 2022.
+   - In 2022, the average honey production across all states was 3,133,275 pounds.
 
 5. **State reference and ANSI codes**  
-   - List all states and their `State_ANSI` codes from `state_lookup`.  
-   - Identify the `State_ANSI` code for Florida.  
-   - Join states with cheese production for April 2023 (including states with no cheese production) and return the total for New Jersey.
+   - 50 states and their `State_ANSI` codes from `state_lookup` were retreived.  
+   -  the `State_ANSI` code for Florida was 12.  
+   -  There were 50 states with their cheese production values for April 2023 including states with no cheese production were retreived.
+   -  Total cheese production for NEW JERSEY in April 2023 was 4,889,000
 
-6. **Cross-commodity dairy analysis**  
-   - Find the total yogurt production in 2022 for states that also have cheese production data in 2023.
+6. **Cross-commodity dairy analysis**
+   - There was 50 states with their cheese production values (including no production)
 
 7. **Missing milk data (2023)**  
-   - List all states from `state_lookup` that do not appear in `milk_production` for 2023 and report how many there are.
+   - 1,171,095,000 was the total yogurt production for states in the year 2022 that also have cheese production data from 2023
 
 8. **Cheese production availability and conditional analysis**  
-   - List all states with their cheese production values for April 2023, including states with no production recorded.  
-   - Check whether Delaware produced any cheese in April 2023.  
-   - Find the average coffee production for all years where honey production exceeded 1,000,000.
+   - 26 States were missing milk production data in 2023
+
+9. **Delaware Cheese Production Availability (April 2023)**
+   - Delaware did not produce any cheese in April 2023. 
+   
+10. **Coffee production availability and conditional analysis**
+   - Average coffee production for years where honey > 1 million  was 6,426,666.666666667
 
 ---
 
