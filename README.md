@@ -2,9 +2,9 @@
 
 This project showcases end-to-end data analysis using real-world style agricultural data from the United States Department of Agriculture (USDA). The focus is on using SQL to explore multi-year, multi-commodity production data across U.S. states and answer business-oriented questions.
 
----
-
 ## Data
+
+```
 USDA-Production-Analysis/
 │
 ├── Data/                # Raw CSV files (milk, cheese, honey, yogurt, eggs, coffee, states)
@@ -17,6 +17,7 @@ USDA-Production-Analysis/
 │
 └── README.md            # Project documentation
 ```
+
 
 ---
 
